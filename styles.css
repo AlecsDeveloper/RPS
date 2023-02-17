@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Mojang;
+    src: url('fonts/Mojang-Regular.ttf');
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c4b7a;
+}
+
+h1 {
+    font-family: Mojang;
+    word-spacing: 10px;
+    color: #e3daf1;
+}
+
+#menu { 
+    padding: 8px;
+    border-radius: 6px;
+    border-radius: 4px;
+    background: #5c4b7a;
+    box-shadow: inset 5px 5px 10px #251e31,
+                inset -5px -5px 10px #9378c3;
+}
+
+#res {
+    font-family: Mojang;
+    font-size: 16px;
+    color: forestgreen;
+    word-spacing: 8px;
+    padding-top: 20px;
+    height: 100px;
+    width: 400px;
+    border-radius: 3px;
+    background: #333;
+    box-shadow: inset 5px 5px 5px #141414,
+                inset -5px -5px 5px #252525;
+}
+
+button {
+    background-color: #5c4b7a;
+    border: none;
+}
+
+#buttons {
+    border-radius: 20px;
+    display: flex;
+    width: 50%;
+    padding: 25px;
+}
+
+#buttons > button > img {
+    width: 100%;
+    transition: all 1ms ease;
+}
+
+#buttons > button > img:hover {
+    transition: all 2ms ease;
+    filter: brightness(30%);
+}
+
